@@ -1,0 +1,131 @@
+body main #kart .container #capital-info {
+  color: #2e3131ab;
+}
+
+body main #kart .container #options ul li #hamisi-1 {
+  color: white;
+  background-color: #f45369;
+}
+
+body main #kart .container #options ul li a {
+  color: black;
+  background: #e8ecf1;
+  border-radius: 37px;
+  padding: 6px 24px 8px;
+}
+
+body main #kart .container #populyar {
+  border: 1px solid #eaeaea;
+  border-radius: 15px;
+  background: #f9fafb;
+  padding: 50px;
+}
+
+body main #kart .container #populyar #populyar-image img {
+  width: 17rem;
+}
+
+body main #kart .container .col-5 .Populyar {
+  color: #f45369;
+}
+
+body main #kart .container .col-5 .sifaris-et a {
+  text-decoration: none;
+  color: black;
+}
+
+body main #kart .container .col-5 .sifaris-et .btn {
+  background-color: #f45369;
+  padding: 9px 77px;
+  border-radius: 8px;
+  font-size: 24px;
+  color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body main #kart .container .col-5 .sifaris-et .btn:hover {
+  background-color: red;
+}
+
+body main #different-cards .container #kart-novleri {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(0, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 40px;
+}
+
+body main #different-cards .container #kart-novleri .card {
+  background: #f9fafb;
+  border-radius: 15px;
+  border: 1px solid #eaeaea;
+  margin-top: 80px;
+  position: relative;
+}
+
+body main #different-cards .container #kart-novleri .card img {
+  width: 12rem;
+  position: absolute;
+  top: -60px;
+  left: 25px;
+}
+
+body main #different-cards .container #kart-novleri .card .card-title {
+  padding: 0 24px;
+  margin-top: 74px;
+}
+
+body main #different-cards .container #kart-novleri .card .card-title a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+body main #different-cards .container #kart-novleri .card .card-title ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+body main #different-cards .container #kart-novleri .card .kart-buttons {
+  border-top: 1px solid #e8ecf1;
+}
+
+body main #different-cards .container #kart-novleri .card .kart-buttons a {
+  padding: 14px 24px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 0 !important;
+}
+
+body main #different-cards .container #kart-novleri .card .kart-buttons .sifaris {
+  border-right: 1px solid #e8ecf1;
+  color: #f45369;
+  border-bottom-left-radius: 15px !important;
+}
+
+body main #different-cards .container #kart-novleri .card .kart-buttons .sifaris:hover {
+  background-color: #f45369;
+  color: white;
+}
+
+body main #different-cards .container #kart-novleri .card .kart-buttons .etrafli {
+  width: 71.4%;
+  border-bottom-right-radius: 15px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+body main #different-cards .container #kart-novleri .card .kart-buttons .etrafli:hover {
+  background-color: #f45369;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,133 @@
+@import "variable";
+
+body {
+
+  main {
+    #kart {
+      .container {
+        #capital-info {
+          color: #2e3131ab;
+        }
+        #options {
+          ul {
+            li {
+              #hamisi-1 {
+                color: white;
+                background-color: $primary_color;
+              }
+              a {
+                color: black;
+                background: #e8ecf1;
+                border-radius: 37px;
+                padding: 6px 24px 8px;
+              }
+            }
+          }
+        }
+        #populyar {
+          border: 1px solid #eaeaea;
+          border-radius: 15px;
+          background: #f9fafb;
+          padding: 50px;
+          #populyar-image {
+            img {
+              width: 17rem;
+            }
+          }
+        }
+        .col-5 {
+          .Populyar {
+            color: $primary_color;
+          }
+          .sifaris-et {
+            a {
+              text-decoration: none;
+              color: black;
+            }
+            .btn {
+              background-color: $primary_color;
+              padding: 9px 77px;
+              border-radius: 8px;
+              font-size: 24px;
+              color: white;
+              transition: 0.5s;
+              &:hover {
+                background-color: red;
+              }
+            }
+          }
+        }
+      }
+    }
+    #different-cards {
+      .container {
+        #kart-novleri {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          gap: 40px;
+          .card {
+            background: #f9fafb;
+            border-radius: 15px;
+            border: 1px solid #eaeaea;
+            margin-top: 80px;
+            position: relative;
+            img{
+                width: 12rem;
+                position: absolute;
+                top: -60px;
+                left: 25px;
+
+            }
+            .card-title {
+              padding: 0 24px;
+              margin-top: 74px;
+              a {
+                text-decoration: none;
+                color: black;
+                font-size: 24px;
+              }
+              ul {
+                li::before {
+                  content: "\2022";
+                  color: red;
+                  font-weight: bold;
+                  display: inline-block;
+                  width: 1em;
+                  margin-left: -1em;
+                }
+              }
+            }
+            .kart-buttons {
+              border-top: 1px solid #e8ecf1;
+              a {
+                padding: 14px 24px;
+                transition: 0.5s;
+                border-radius: 0 !important;
+              }
+              .sifaris {
+                border-right: 1px solid #e8ecf1;
+                color: $primary_color;
+                border-bottom-left-radius: 15px !important;
+                &:hover{
+                    background-color: $primary_color;
+                    color: white;
+                }
+              }
+              .etrafli {
+                  width: 71.4%;
+                border-bottom-right-radius: 15px !important;
+                display: flex;
+                justify-content: start;
+                  &:hover{
+                      background-color: $primary_color;
+                      color: white;
+
+                  }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
